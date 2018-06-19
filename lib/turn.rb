@@ -7,8 +7,7 @@ def turn(board)
     move(board,index,character) 
   else 
     puts "Wrong input"
-    user_input = gets.strip
-    index = input_to_index(user_input)
+    turn(board)
   end
   
 end
