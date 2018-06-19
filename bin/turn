@@ -1,7 +1,7 @@
 #!/usr/bin/env ruby
 puts "Welcome to Tic Tac Toe!"
 board = [" ", " ", " ", " ", " ", " ", " ", " ", " "]
-print "Please enter 1-9:"
+prints "Please enter 1-9:"
 user_input = gets.strip
 index = input_to_index(user_input)
 move(board, index,)
