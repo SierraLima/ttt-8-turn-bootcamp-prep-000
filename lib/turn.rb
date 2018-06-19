@@ -9,7 +9,7 @@ def turn(board)
     puts "Wrong input"
     turn(board)
   end
-  
+  display_board(board)
 end
 
 def display_board(board)
