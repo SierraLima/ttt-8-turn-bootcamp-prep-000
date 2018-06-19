@@ -4,6 +4,8 @@ def turn(board)
   index = input_to_index(user_input)
   if valid_move?(board,index)
     move(board,index) 
+  else 
+    
 end
 
 def display_board(board)
