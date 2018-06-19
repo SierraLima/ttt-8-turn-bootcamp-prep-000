@@ -1,8 +1,9 @@
 #!/usr/bin/env ruby
 require_relative '../lib/turn'
 
-puts "Welcome to Tic Tac Toe!"
+
 board = [" ", " ", " ", " ", " ", " ", " ", " ", " "]
+puts "Welcome to Tic Tac Toe!"
 prints "Please enter 1-9:"
 user_input = gets.strip
 index = input_to_index(user_input)
